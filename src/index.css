@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .align-element {
+    @apply mx-auto max-w-7xl px-8;
+  }
+  .social-link {
+    @apply h-8 w-8 hover:text-green-300 duration-300;
+  }
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
