@@ -5,13 +5,13 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 function App() {
   return (
-    <>
+    <main className="w-full m-x-auto">
       <Navbar />
       <Hero />
       <Skills />
       <About />
       <Projects />
-    </>
+    </main>
   );
 }
 

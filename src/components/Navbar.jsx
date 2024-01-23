@@ -2,8 +2,8 @@ import { links } from "../data";
 
 const Navbar = () => {
   return (
-    <nav className="bg-[#2b2d42] text-[#fff]">
-      <div className="flex flex-col align-element py-4 sm:flex-row sm:gap-x-16 sm:items-center sm:py-8">
+    <nav className="bg-[#2b2d42] text-[#fff] sticky top-0">
+      <div className="flex flex-col align-element py-4 sm:flex-row sm:gap-x-16 sm:items-center sm:py-8 sm:justify-between">
         <h2 className="text-3xl font-bold">AngelaCodes</h2>
         <div className="flex gap-x-3">
           {links.map((link) => {

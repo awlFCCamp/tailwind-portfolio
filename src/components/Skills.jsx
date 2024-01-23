@@ -6,7 +6,7 @@ const Skills = () => {
   return (
     <section className="align-element py-20 " id="skills">
       <SectionTitle text="tech stack" />
-      <div className="py-16 grid gap-8 md:grid-cols-4 lg:grid-cols-8">
+      <div className="py-16 grid grid-cols-3 gap-8 md:grid-cols-4 lg:grid-cols-8">
         {skills.map((skill) => {
           return <SkillsCard key={skill.id} {...skill} />;
         })}

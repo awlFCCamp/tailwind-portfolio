@@ -5,7 +5,7 @@ import heroData from "../assets/heroAnimation.json";
 
 const Hero = () => {
   return (
-    <div className="bg-[#2b2d42] text-[#fff] py-24">
+    <div className="bg-[#2b2d42] text-[#fff] py-24" id="home">
       <div className="align-element grid md:grid-cols-2 items-center gap-8">
         <article>
           <h1 className="text-7xl font-bold">I am Angela</h1>
