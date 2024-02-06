@@ -111,10 +111,18 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: "https://images.pexels.com/photos/12883026/pexels-photo-12883026.jpeg?auto=compress&cs=tinysrgb&w=800",
-    url: "",
-    github: "",
+    img: "https://i.ibb.co/6myvfR9/Screenshot-2024-02-06-at-3-30-32-PM.png",
+    url: "https://angelacodes-hackernews-react.netlify.app",
+    github: "https://github.com/awlFCCamp",
     title: "third project",
-    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
+    text: "React, Context API, useReducer",
+  },
+  {
+    id: nanoid(),
+    img: "https://i.ibb.co/X341n9x/Screenshot-2024-02-06-at-3-22-33-PM.png",
+    url: "https://angelacodes-movie-watch.netlify.app",
+    github: "https://github.com/awlFCCamp",
+    title: "Movie Watch App",
+    text: "React, Context API, OMDB and Auth0 API",
   },
 ];
