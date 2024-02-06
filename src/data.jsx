@@ -125,4 +125,12 @@ export const projects = [
     title: "Movie Watch App",
     text: "React, Context API, OMDB and Auth0 API",
   },
+  {
+    id: nanoid(),
+    img: "https://i.ibb.co/ZXYCPNk/Screenshot-2024-02-06-at-3-34-44-PM.png",
+    url: "https://angelacodesfem.netlify.app/",
+    github: "https://github.com/awlFCCamp",
+    title: "Frontend Mentor Challenges",
+    text: "React, Vanilla JS, SCSS, HTML5",
+  },
 ];
