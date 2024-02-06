@@ -23,7 +23,11 @@ const About = () => {
             Whether it's leveraging Express or Java for backend development, I
             am adept at creating robust and scalable solutions. My AWS Certified
             Cloud Practitioner (CCP) certificate further enhances my ability to
-            design and deploy cloud-based applications efficiently. I am
+            design and deploy cloud-based applications efficiently. I practice
+            my frontend skills on the Frontend Mentor platform and volunteer as
+            a mentor or developer at nonprofit organizations. Currently, I work
+            as a developer for Hack for LA, where I contribute to meaningful
+            projects that make a positive impact on the community. I am
             passionate about leveraging technology to solve complex problems and
             deliver exceptional user experiences.
           </p>
