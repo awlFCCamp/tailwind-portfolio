@@ -95,7 +95,7 @@ export const skills = [
 export const projects = [
   {
     id: nanoid(),
-    img: "https://i.ibb.co/vzM5YH3/Screenshot-2024-02-06-at-10-26-46-AM.png",
+    img: "https://i.ibb.co/bNMwk9J/Screenshot-2024-02-06-at-11-49-52-AM.png",
     url: "https://ticketing-app-six.vercel.app/",
     github: "https://github.com/awlFCCamp/ticketing-app",
     title: "Ticketing App",
