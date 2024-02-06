@@ -16,18 +16,16 @@ const About = () => {
             About me
           </h2>
           <p className="text-lg text-[#fff]">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
-            unde quisquam quis magni, repellat cumque neque repudiandae a
-            mollitia? Ad quas accusantium autem fugit quam quasi delectus
-            necessitatibus laboriosam cupiditate vitae. Maxime illo ratione
-            debitis asperiores iure odio, hic enim laborum dignissimos! Porro
-            ipsam inventore animi molestias voluptatem ducimus omnis corporis
-            reiciendis corrupti totam vero architecto nostrum dolorum nam
-            officia tenetur, maxime dolores amet cum id itaque at fuga esse.
-            Harum magnam fuga qui itaque dignissimos voluptatibus cupiditate
-            provident, eaque enim, nemo vel laborum hic culpa laboriosam porro.
-            Eaque deleniti tempora harum voluptatem ducimus veritatis quia sed!
-            Ab, assumenda rerum.
+            As an ex-chemical engineer turned frontend-focused full-stack
+            developer, I bring a unique blend of analytical thinking and
+            technical skills to my work. With a strong foundation in React and
+            Next.js, I excel in building dynamic and responsive user interfaces.
+            Whether it's leveraging Express or Java for backend development, I
+            am adept at creating robust and scalable solutions. My AWS Certified
+            Cloud Practitioner (CCP) certificate further enhances my ability to
+            design and deploy cloud-based applications efficiently. I am
+            passionate about leveraging technology to solve complex problems and
+            deliver exceptional user experiences.
           </p>
         </article>
       </div>
