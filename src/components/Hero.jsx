@@ -16,10 +16,10 @@ const Hero = () => {
             Using coding and coffee to solve problems one line at a time
           </p>
           <div className="flex gap-x-4 mt-4">
-            <a href="">
+            <a href="https://www.linkedin.com/in/angela-lee-texas/">
               <FaLinkedinIn className="social-link" />
             </a>
-            <a href="">
+            <a href="https://github.com/awlFCCamp">
               <IoLogoGithub className="social-link" />
             </a>
           </div>
