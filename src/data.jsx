@@ -114,7 +114,7 @@ export const projects = [
     img: "https://i.ibb.co/6myvfR9/Screenshot-2024-02-06-at-3-30-32-PM.png",
     url: "https://angelacodes-hackernews-react.netlify.app",
     github: "https://github.com/awlFCCamp",
-    title: "third project",
+    title: "Hacker News",
     text: "React, Context API, useReducer",
   },
   {
