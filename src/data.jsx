@@ -103,6 +103,14 @@ export const projects = [
   },
   {
     id: nanoid(),
+    img: "https://i.ibb.co/zR6rJgV/Screenshot-2024-02-28-at-10-46-28-AM.png",
+    url: "https://discover-dishes.vercel.app/",
+    github: "https://github.com/awlFCCamp/tailwind-portfolio",
+    title: "Food Adventure",
+    text: "React, context api, third-party api, tailwindCSS ",
+  },
+  {
+    id: nanoid(),
     img: "https://i.ibb.co/QMxgrpB/Screenshot-2024-02-06-at-10-30-30-AM.png",
     url: "https://angelacodes-countryexplorer.netlify.app/",
     github: "https://github.com/awlFCCamp/react-proj-5",
