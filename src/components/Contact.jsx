@@ -28,7 +28,10 @@ const Contact = () => {
   };
 
   return (
-    <div className="flex items-center justify-center bg-slate-950" id="contact">
+    <div
+      className="flex items-center justify-center bg-slate-950 pb-24"
+      id="contact"
+    >
       <form
         ref={form}
         onSubmit={sendEmail}
@@ -52,7 +55,7 @@ const Contact = () => {
         <input
           type="submit"
           value="Send"
-          className="p-1 rounded-md hover:border-2 mt-2"
+          className="p-1 rounded-md hover:border-2 mt-6"
         />
       </form>
     </div>
