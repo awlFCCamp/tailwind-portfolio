@@ -29,7 +29,7 @@ const Contact = () => {
 
   return (
     <div
-      className="flex items-center justify-center bg-slate-950 pb-24"
+      className="flex items-center justify-center bg-[#2b2d42] pb-12"
       id="contact"
     >
       <form
@@ -55,7 +55,7 @@ const Contact = () => {
         <input
           type="submit"
           value="Send"
-          className="p-1 rounded-md hover:border-2 mt-6"
+          className="p-1 rounded-md mt-6  bg-lime-700 text-semibold  hover:bg-[#2b2d42] hover:border-2 hover:border-lime-700 hover:text-white"
         />
       </form>
     </div>

@@ -3,7 +3,7 @@ import Lottie from "lottie-react";
 import aboutData from "../assets/aboutAnimation.json";
 const About = () => {
   return (
-    <section className="bg-slate-950 py-20" id="about">
+    <section className="bg-[#2b2d42] py-20" id="about">
       <div className="grid md:grid-cols-2 items-center gap-16 align-element">
         <article className="bg-[#fff] rounded-md hidden md:block">
           <Lottie

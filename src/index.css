@@ -9,6 +9,9 @@
   .social-link {
     @apply h-8 w-8 hover:text-green-300 duration-300;
   }
+  .social-link-small {
+    @apply h-4 w-4 hover:text-green-300 duration-300;
+  }
 }
 
 body {
