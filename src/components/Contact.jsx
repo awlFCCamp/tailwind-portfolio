@@ -35,19 +35,19 @@ const Contact = () => {
         className="text-white flex flex-col mt-12 p-4 w-full md:w-1/3"
       >
         <h3 className="text-4xl font-bold text-center">Contact</h3>
-        <label>Name</label>
+        <label className="mb-1">Name</label>
         <input
           type="text"
           name="user_name"
           className="p-1 rounded-md text-black mb-4"
         />
-        <label>Email</label>
+        <label className="mb-1">Email</label>
         <input
           type="email"
           name="user_email"
           className="p-1 rounded-md text-black mb-4"
         />
-        <label>Message</label>
+        <label className="mb-1">Message</label>
         <textarea name="message" rows="8" className="text-black" />
         <input
           type="submit"
