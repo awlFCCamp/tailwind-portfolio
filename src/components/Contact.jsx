@@ -39,13 +39,13 @@ const Contact = () => {
         <input
           type="text"
           name="user_name"
-          className="p-1 rounded-md text-black"
+          className="p-1 rounded-md text-black mb-4"
         />
         <label>Email</label>
         <input
           type="email"
           name="user_email"
-          className="p-1 rounded-md text-black"
+          className="p-1 rounded-md text-black mb-4"
         />
         <label>Message</label>
         <textarea name="message" rows="8" className="text-black" />
