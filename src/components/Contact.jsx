@@ -1,12 +1,20 @@
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import { toast } from "react-toastify";
 
 const Contact = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
+    const name = form.current.user_name.value.trim();
+    const email = form.current.user_email.value.trim();
+    const message = form.current.message.value.trim();
 
+    if (!name || !email || !message) {
+      toast.error("Please fill out all fields");
+      return;
+    }
     emailjs
       .sendForm(
         `${import.meta.env.VITE_SERVICE_ID}`,
@@ -18,11 +26,13 @@ const Contact = () => {
       )
       .then(
         (response) => {
-          console.log("Email sent successfully:", response);
+          toast.success("Email sent successfully");
+          console.log(response);
           e.target.reset();
         },
         (error) => {
-          console.log("FAILED...", error.text);
+          toast.error("Error sending email");
+          console.log(error);
         }
       );
   };
