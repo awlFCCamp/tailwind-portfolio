@@ -5,11 +5,10 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import { ToastContainer } from "react-toastify";
+
 function App() {
   return (
-    <main className="w-full m-x-auto">
-      <ToastContainer position="bottom-right" />
+    <main className="w-full m-x-auto min-h-screen">
       <Navbar />
       <Hero />
       <Skills />
